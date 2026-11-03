@@ -1,5 +1,5 @@
 ---
-name: glossary-builder
+name: Glossary_Builder
 description: Builds a small glossary from supplied prose. Use when a reader needs definitions grounded in the text and ambiguous terms identified.
 license: MIT
 metadata:
