@@ -1,0 +1,16 @@
+name: Skill checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+jobs:
+  skills:
+    uses: chrisknvidia/skillevaluator-shared-ci-20261103-demo/.github/workflows/skill-checks.yml@8367f6103214e058dba9c2655038aabaceea9362
+    with:
+      paths: skills
+      min-score: 70
+      scan-mode: auto
