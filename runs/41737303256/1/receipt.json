@@ -1,0 +1,16 @@
+{
+  "run_id": 41737303256,
+  "run_attempt": 1,
+  "head_sha": "7201877113f60969aa8974d791e2d4990724773d",
+  "artifact_id": 13279053795,
+  "run_url": "https://github.com/chrisknvidia/skillevaluator-wrapper-20261103-demo/actions/runs/41737303256",
+  "report_url": "https://chrisknvidia.github.io/skillevaluator-wrapper-20261103-demo/runs/41737303256/1/",
+  "overall_status": "passed",
+  "ci_conclusion": "success",
+  "event": "pull_request",
+  "trusted_evaluator_sha": "46a8cf269257d1ec56a0285c508ac9ee48010930",
+  "trusted_wrapper_workflows": [
+    "chrisknvidia/skillevaluator-shared-ci-20261103-demo/.github/workflows/skill-checks.yml@8367f6103214e058dba9c2655038aabaceea9362"
+  ],
+  "image": "ghcr.io/nvidia/skillevaluator-tier1@sha256:a3baec51f48145cdf9de05a5ab054d9576f62f1de0f5276b788410f5c17747d4"
+}
